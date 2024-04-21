@@ -1,0 +1,44 @@
+.listaVertical{
+    display: block;
+    width: 8%;
+    padding-top: 3%;
+}
+
+.gridPrincipal{
+    display: flex;
+}
+
+.gridHijo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   gap: 50px;
+}
+
+.listaVertical > img{
+    width: 18%;
+    margin-bottom: 10px;
+}
+
+.gridHijo > div > img{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.listaArriba > a{
+  background-color: rgba(200, 200, 200, 0.7);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: black;
+  margin-right: 55px;
+  grid-column: 1 / span 3;
+}
+
+.listaArriba{
+    grid-column: 1 / 4;
+    margin-top: 50px;
+}
+
+div > span{
+    color: rgb(100, 100, 100);
+}

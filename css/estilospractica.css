@@ -1,0 +1,130 @@
+.gridContainer {
+    display: grid;
+    
+    grid-template-columns: 15% 6% 10% 40% 10% ;
+    grid-template-rows: 100px 100px 100px 100px ;
+    gap: 3px;
+    
+}
+
+.grid1 {
+    background-color: violet;
+    color: white;
+    text-align: center;
+}
+
+.grid2 {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+
+.gridCss {
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    grid-column-start: 4 ;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    padding-top: 30%;
+}
+
+.grid4 {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.grid5 {
+    background-color: green;
+    color: white;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.grid6 {
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.grid7 {
+    background-color: darkolivegreen;
+    color: white;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.grid8 {
+    background-color: olivedrab;
+    color: white;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    
+
+}
+
+.grid9 {
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    
+}
+
+.grid10 {
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    
+}
+
+.grid11 {
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.grid12 {
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
